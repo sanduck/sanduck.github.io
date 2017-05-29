@@ -814,7 +814,7 @@ body {
   background: -webkit-linear-gradient(top, #fff, rgba(255,255,255,0));
   background: -moz-linear-gradient(top, #fff, rgba(255,255,255,0));
   background: linear-gradient(top, #fff, rgba(255,255,255,0));
-  z-index: 3;
+  z-index: 33;
 }
 .duck-dream:after {
   content: ' ';
@@ -831,7 +831,7 @@ body {
 .container {
   margin-left: 12em;
   position: relative;
-  z-index: 33;
+  z-index: 3;
   background-color: #fff;
 }
 .about-site {
