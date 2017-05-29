@@ -795,7 +795,7 @@ body {
 }
 .duck-dream {
   width: 800px;
-  min-width: 800px;
+  max-width: 800px;
   margin: 3em auto;
 }
 .duck-dream a {
@@ -830,6 +830,9 @@ body {
 }
 .container {
   margin-left: 12em;
+  position: relative;
+  z-index: 33;
+  background-color: #fff;
 }
 .about-site {
   padding-top: 3em;
