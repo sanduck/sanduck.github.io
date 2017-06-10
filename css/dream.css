@@ -613,6 +613,16 @@ caption {
 .post.wrap .post-body table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
+.about-site {
+  padding-top: 3em;
+  padding-left: 2em;
+  line-height: 2;
+  border-left: 0.2em solid #eee;
+  -webkit-border-image: -webkit-linear-gradient(top, #fff, #eee, #fff) 0 0 0 1 stretch;
+  -moz-border-image: -moz-linear-gradient(top, #fff, #eee, #fff) 0 0 0 1 stretch;
+  border-image: -webkit-linear-gradient(top, #fff, #eee, #fff) 0 0 0 1 stretch;
+  border-image: linear-gradient(top, #fff, #eee, #fff) 0 0 0 1 stretch;
+}
 .post-body pre,
 .post-body .highlight {
   background: #fafafa;
@@ -834,11 +844,6 @@ body {
   z-index: 3;
   background-color: #fff;
 }
-.about-site {
-  padding-top: 3em;
-  padding-left: 2em;
-  line-height: 2;
-}
 .sidebar {
   position: fixed;
   width: 12em;
@@ -867,6 +872,7 @@ body {
   height: 100%;
   z-index: 1;
   box-shadow: 0 0 1em #fff inset;
+  border-radius: 1em;
 }
 .sidebar .logo-box .logo img.avatar {
   width: 140px;
@@ -972,4 +978,13 @@ body {
   font-size: 0.8em;
   text-align: justify;
   color: #808080;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    position: absolute;
+  }
+  .container .wrap {
+    padding-right: 1em;
+  }
 }
